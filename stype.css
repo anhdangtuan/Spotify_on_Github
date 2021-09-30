@@ -17,7 +17,7 @@ body{
     max-width: 95vw;
     height: auto;
 }
-/* NAVBAR */
+/* NAV BAR Noted */
 nav{
     background-color: black;
     position:fixed ;
@@ -51,7 +51,7 @@ a{
 a:hover {
     color: #1ed760;
 }
-/* Section 1*/
+/* Section1*/
 #section1{
     padding-top: 70px;
     background-color: rgb(241, 75, 46);
@@ -106,6 +106,92 @@ a:hover {
 	font-size: 13px;
 	margin: 32px 0;
 }
+/* SECTION2 */
+
+#section2 {
+	background-color: #cb1582;
+	padding: 120px 0;
+	min-height: 606px;
+}
+
+#section2 .text div {
+	color: #a5ffef;
+}
+
+#section2 button {
+	color: #cb1582;
+	background-color: #a5ffef;
+}
+
+.bottom-box {
+	position: relative;
+	width: 527px;
+	height: 320px;
+	background: linear-gradient(359.37deg, #000 3.09%, #ff4632 22.4%, #fae62d 46.64%, #9bf0e1 62.15%, #a0c3d2 79.91%, #4100f5 99.49%);
+	background-repeat: no-repeat;
+}
+.top-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: flex-end;
+	padding: 40px;
+	background-color: #a5ffef;
+	width: 417px;
+	height: 404px;
+	color: #cb1582 !important;
+	font-size: 64px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+	.bottom-box {
+		position: relative;
+		width: 300px;
+		height: 200px;
+		background: linear-gradient(359.37deg, #000 3.09%, #ff4632 22.4%, #fae62d 46.64%, #9bf0e1 62.15%, #a0c3d2 79.91%, #4100f5 99.49%);
+		background-repeat: no-repeat;
+	}
+	.top-box {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		align-items: flex-end;
+		padding: 40px;
+		background-color: #a5ffef;
+		width: 250px;
+		height: 300px;
+		color: #cb1582 !important;
+		font-size: 32px;
+		font-weight: 600;
+	}
+}
+
+/* SECTION 3 */
+
+#section3 {
+	padding-top: 80px;
+	background-image: url(images/LiE_circles.svg);
+	background-size: auto 100%;
+	color: #1ed760;
+	background-color: #2d46b9;
+	background-position: right center;
+	background-repeat: no-repeat;
+	min-height: 606px;
+}
+
+#section3 .text {
+	max-width: 500px;
+}
+#section3 button {
+	background-color: #1ed760;
+	color: #2d46b9;
+}
+
 /* FOOTER */
 
 footer {
